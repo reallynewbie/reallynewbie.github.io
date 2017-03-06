@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(#355e3b, slategray);
+    background: linear-gradient(lightblue, silver);
 }
 .glass{
     display: block;
@@ -45,11 +45,11 @@ h2{
     width: 15%;
 }
 .btnGlass:hover{
-    background-color: darkgreen;
+    background-color: cornsilk
 }
 a h2{
     text-decoration: none;
-    color: gold;
+    color: red;
 }
 a{
     text-decoration: none;
