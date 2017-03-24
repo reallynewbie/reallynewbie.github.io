@@ -16,7 +16,7 @@ body{
     text-align: center;
     font-family: "Bitter", serif;
     font-size: 5vmin;
-    padding: 3vh;
+    padding: 2vh;
     margin: 0 auto;
     font-weight: 900;
 }
@@ -29,7 +29,7 @@ body{
 h2{
     display: inline-block;
     padding: 0.5vh 0.80vw;
-    font-size: 2vmin;
+    font-size: 80%;
 }
 .btnGlass{
     
@@ -54,7 +54,6 @@ a h2{
 a{
     text-decoration: none;
 }
-
 .SocialMedia{
     position: fixed;
     text-align: center;
@@ -70,7 +69,7 @@ p{
 .Content{
     text-align: center;
 
-    padding: 5vh 2vh 1vh 1vh;
+    padding: 3vh 2vh 1vh 1vh;
 }
 .left-half{
     float:left;
