@@ -1,10 +1,12 @@
 body{
     background: linear-gradient(#355e3b, slategray);
+    background-attachment: fixed;
 }
 .glass{
     display: block;
     width: 75%;
-    height: 100%;
+    min-height:100%;
+    height: auto;
     padding: 0;
     background: rgba(255, 255, 255, 0.30);
     margin: 0 auto;
@@ -52,15 +54,44 @@ a h2{
 a{
     text-decoration: none;
 }
-.Content{
-    text-align: center;
-    padding-top: 10vh;
 
-}
 .SocialMedia{
     position: fixed;
     text-align: center;
     width: 100%;
     bottom: 0;
     left: 0;
+}
+p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Content{
+    text-align: center;
+
+    padding: 5vh 2vh 1vh 1vh;
+}
+.left-half{
+    float:left;
+    width:48%;
+    height:30%;
+    padding-right: 1%;
+    padding-left: 1%;
+    box-sizing: border-box;
+}
+.right-half{
+    float:right;
+    width:48%;
+    height:30%;
+    padding-left:1%;
+    padding-right:1%;
+    box-sizing: border-box;
+}
+.right-half > img{
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
 }
