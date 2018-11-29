@@ -26,9 +26,7 @@ body {
     text-align: center;
     font-family: 'Vesper Libre', serif;
 }
-h2 {
-    font-size: 16px;
-}
+
 hr {
     width: 50%;
 }
@@ -51,12 +49,14 @@ hr {
     grid-column: 1 / 3;
     grid-row: 1;
     width: 100%;
+    font-size: 28px;
+    font-family: 'Vesper Libre', serif;
 }
 .proj-title > p {
     margin: 0;
     padding-top: 3px;
     font-style: italic;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .proj-left {
@@ -69,6 +69,8 @@ hr {
 }
 .proj-desc {
     justify-self: center;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
 }
 .proj-desc > p {
     text-align: justify;
