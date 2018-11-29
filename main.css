@@ -33,13 +33,13 @@ hr {
 /* --- Projects --- */
 .project {
     width: 100%;
-    height: 300px;
-    min-height: 300px;
+    height: 350px;
+    min-height: 350px;
 }
 .proj-grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50px 250px;
+    grid-template-rows: 50px 300px;
     align-items: center;
     justify-content: center;
     grid-column-gap: 5px;
@@ -85,6 +85,13 @@ hr {
     cursor: pointer;
     margin-top: 3px;
 
+}
+
+#RFS {
+    width: 60%;
+    height: 90%;
+    max-width: 480px;
+    max-height: 315px;
 }
 /* --- Sidebar --- */
 #sidebar {
@@ -145,5 +152,9 @@ hr {
     }
     #wrapper {
         width: 100%;
+    }
+    #RFS {
+        width: 90%;
+        height: calc(100% * 2 / 3);
     }
 }
