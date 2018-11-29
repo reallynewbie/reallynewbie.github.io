@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #323232;
+    overflow: hidden;
+}
+.grid {
+    display: grid;
+    height: 100%;
+    max-height: 50vh;
+    grid-template-columns: auto;
+    grid-template-rows: 100vh 0vh;
+    grid-template-areas: 
+    "nav"
+    "main"; 
+    grid-gap: 100vh;
+    transition: all 0.5s ease;
+}
+.grid-toggled {
+    grid-template-rows: 5vh 95vh;
+    grid-gap: 0vh;
+    max-height: 0%;
+}
+
+.nav-bar {
+    grid-row: nav;
+    background-color: #84CEEB;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background:
+    linear-gradient(80deg, #5680E9, #C1C8E460 50%, #8860D080 80%),
+    linear-gradient(180deg, rgba(135, 96, 208, 0.8), #C1C8E460 30%),
+    linear-gradient(360deg, rgba(255, 0, 0, 0.733), #84CEEB 50%);
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.glass{
+    background: rgba(255, 255, 255, 0.30);
+}
+#nav-home {
+
+}
+#nav-projects {
+
+}
+#nav-contact {
+
+}
+.nav-point {
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0;
+}   
+.main {
+    grid-row: main;
+    height: 0;
+    width: 0;
+    display: none;
+}
+.content {
+    margin: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.outline{
+    background-color: yellow;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
